@@ -2,12 +2,16 @@ var money = document.getElementById("money");
 var amountto = document.querySelector("#amountto")
 var amount = document.querySelector("#amount")
 var amountin = document.querySelector("#amountin")
+ if(money.value==trim() ){
+    money.innerHTML="pleas enter something to continue"
+    money.style.color="red"
+}
 
 function check() {
     if (amountin.value == amountto.value) {
         amount.innerHTML = "pleas inter different countries"
         amount.style.color = "red"
-        if(money.value == 0)
+        if(money.value == 0){
             money.innerHTML="pleas enter something"
             money.style.color="red"
         }
