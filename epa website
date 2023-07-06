@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  </head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><span class="text-warning">G.S</span>.EPA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#service">service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portofolio">portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portofolio">portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#conatct">Contact</a>
+              </li>
+
+
+
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/epa.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>zenc wall</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque soluta impedit eos, earum ut aliquid porro, doloribus dignis
+                diandae praesentium officia.</p>
+                <p><a href="#" class="btn btn-warning mt-3">learn more</a></p>
+            </div>
+          </div>
+
+
+
+          <div class="carousel-item">
+            <img src="image/wllh.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h4>the medicine</h4>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque soluta impedit eos, earum ut aliquid porro, doloribus dignis
+                diandae praesentiu m officia.</p>
+                <p><a href="#" class="btn btn-warning mt-3">learn more</a></p>
+            </div>
+          </div>
+
+
+          
+          <img src="image/img-3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>urankunda</h5>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque soluta impedit eos, earum ut aliquid porro, doloribus dignis
+                diandae praesentium officia.</p>
+                <p><a href="#" class="btn btn-warning mt-3">learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+      <section id="about" class=" about-section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md12col-12"><br><br>
+                    <div class="about-img-warning">
+                        <img src="image/wall2.jpg" alt="" class="img-fluid">
+
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-12 ps-lg mt-md-5">
+                    <div class="about-text">
+                        <h2>we provide best <br>docters from MCB </h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam quam, qui nulla aspernatur 
+                            blanditiis
+                            laboriosam dolorum placeat delectus illo est incidunt, velit soluta aliquam, tempora 
+                            quaerat nisi similique iusto culpa?</p>
+                            <a href="#" class="btn btn-warning">learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+      </section>
+      <section id="service" class="service section-padding">
+        <div class="container">
+          <div class="section-header text-center pb-5">
+            <h2>Our service</h2>
+            <p>Lorem ipsum dolor sit amet consecteturadipisicing elit. Officia reiciendis optio exercitationem! Quos, sit! Iusto alias cupiditate maxime modi ad minima f
+              ugiat, laudantium, expedita tempore porro, eligendi nulla quidem numquam.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12col-md-12o col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-subtract"></i>
+                <h3 class="card-title">best Quality</h3>
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur
+                   adipisicing elit. Dolor, culpa. Sapiente, ad?</p>
+                   <button class="btn btn-warning">
+                    
+                   </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12col-md-12o col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-slack"></i>
+                <h3 class="card-title">best Quality</h3>
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur
+                   adipisicing elit. Dolor, culpa. Sapiente, ad?</p>
+                   <button class="btn btn-warning">
+                    
+                   </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12col-md-12o col-lg-4">
+            <div class="card text-white text-center bg-dark pb-2">
+              <div class="card-body">
+                <i class="bi bi-playstation"></i>
+                <h3 class="card-title">best Quality</h3>
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur
+                   adipisicing elit. Dolor, culpa. Sapiente, ad?</p>
+                   <button class="btn btn-warning">
+                    
+                   </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portofolio" class="portflio section=padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Our project</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates consequuntur consequatur reiciendis fugit totam excepturi <br>
+                  distinctio molestiae. Iste repellendus fuga sed natus dignissimos quas maxime!</p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="image/wallpaperflare.com_wallpaper (9).jpg" alt="" class="img-fluid">
+                  <h3 class="card-title">building make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus tempore ullam,
+                     labore consequuntur similique sed magnam. Vel, et earum. Tempora.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="image/wallpaperflare.com_wallpaper (9).jpg" alt="" class="img-fluid">
+                  <h3 class="card-title">building make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus tempore ullam,
+                     labore consequuntur similique sed magnam. Vel, et earum. Tempora.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-12 col-lg-4">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="image/wallpaperflare.com_wallpaper (9).jpg" alt="" class="img-fluid">
+                  <h3 class="card-title">building make</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus tempore ullam,
+                     labore consequuntur similique sed magnam. Vel, et earum. Tempora.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section  id="team" class="team section-padding">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="section-header text-center pb-5">
+        <h2>Our project</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, harum.</p>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card text-center">
+        <div class="card-body">
+          <img src="image/img-1.jpg" alt="" class="img-fluid rounded-circle">
+          <h3 class="card-title py-2">epa</h3>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, similique?</p>
+          <i class="bi bi-twitter text-dark max-1"></i>
+          <i class="bi bi-facebook text-dark max-1"></i>
+          <i class="bi bi-linkedin text-dark max-1"></i>
+          <i class="bi bi-instagram text-dark max-1"></i>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+      <div class="card text-center">
+        <div class="card-body">
+          <img src="image/rusingiza.jpg" alt="" class="img-fluid rounded-circle">
+          <h3 class="card-title py-2">rusingizandekwe antoine</h3>
+          <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, similique?</p>
+          <i class="bi bi-twitter text-dark max-1"></i>
+          <i class="bi bi-facebook text-dark max-1"></i>
+          <i class="bi bi-linkedin text-dark max-1"></i>
+          <i class="bi bi-instagram text-dark max-1"></i>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      </section>
+    
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</html>
