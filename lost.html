@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #lost1{
+            background-color: rgb(196, 70, 70);
+            height: 50px;
+            width: 1350px;
+            position: fixed;
+            margin-top: -50px;
+        }
+        #nav{
+           background-color: black;
+           width: 200px;
+           position: fixed;
+           margin-top:1px;
+        }
+        #body{
+            height: 700px;
+            width: 1100px;
+            margin-left: 200px;
+            margin-top: 60px;
+            
+        }
+    </style>
+</head>
+<body>
+<header id="lost1"><center>downtown</center>
+
+</header>
+<nav id="nav">
+<button>mmm</button><br><br>
+<button>mmm</button><br><br>
+<button>mmm</button><br><br>
+<button onclick="zenc()">mmm</button><br><br>
+<button onclick="king()">mmm</button><br><br>
+</nav>
+   <fieldset id="body">
+    <div id="king" style="display:none;">
+        <form onsubmit="return false">
+            <label >username</label>
+            <input type="text">
+            <label >username</label>
+            <input type="text">
+        </form>
+       </div>
+       <div class="box" id="zenc" style="display: none;">
+        <form onsubmit="return false">
+            fuck you
+        </form>
+
+       </div>
+   </fieldset>
+   
+   <script>
+    function king(){
+        document.getElementById("king").style.display='block';
+        document.getElementById("zenc").style.display='none';
+       
+    }
+
+    function zenc(){
+        document.getElementById("zenc").style.display='block';
+        document.getElementById("king").style.display='none';
+        
+      
+       
+    }
+    
+   </script>
+</body>
+</html>

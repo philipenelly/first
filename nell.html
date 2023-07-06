@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="try">
+        <style>
+            *{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: none;
+    }
+
+  .form{
+    width: 290px;
+    height: 400px;
+    border-radius: 20px;
+    background: #141414;
+    border: 3px solid blue;
+    box-shadow: 0px 5px 10px rgb(7,220,220),
+    1px 3px 4px 0px rgb(7,220,220)  
+
+  } 
+  .form:hover{
+border: 3px solid green;
+transition: 0.5s ease-in-out;
+  } 
+.box{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+ 
+}
+input{
+    margin: 16px auto;
+    width: 170px;
+    height: 40px;
+    border-radius: 20px;
+    border-bottom: 2px solid green;
+    background: none;
+    color: beige;
+    
+}
+input:hover{
+    border: 2px solid rgb(87, 87, 197);
+    width: 230px;
+    transition: 0.7s ease all;
+
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    border: 2px solid blue;
+    background: #141414;
+    color: greenyellow;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.btn:hover{
+    border: 2px solid rgb(199,144,78);
+    width: 130px;
+    transition: 0.3s ease-in-out;
+
+
+}
+        </style>
+     <form class="form" onsubmit="return false">
+            <div class="box">
+             <h2>log in</h2>
+             <span id="answername" style="color: red;">look:</span>
+             <input type="text"id="name" name="name" placeholder="username" style="font-style: italic;"><br>
+            
+             <input type="password" placeholder="password" name="password" id="password"><br>
+            <button class="btn" onclick="philipe()">login</button></a><br>or<br>
+             <a href="sign.html"><button class="btn">sign up</button></a><br>
+             <a href="forget.html" style="color: yellow;">forget password</a><br>
+         </form>
+    </div>
+    <script>
+
+var password=document.getElementById("password").value;
+var name=document.getElementById("name").value;
+function philipe(){
+if(name.length>4){
+   document.getElementById("answername").innerHTML="wellcome"
+}
+else{
+    document.getElementById("answername").innerHTML="andika" 
+}
+eqwe
+}
+    </script>
+</body>
+</html>eedfsdffdffcxzdxS    <em></em>
