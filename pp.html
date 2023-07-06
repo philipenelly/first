@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<style>
+#link1{
+    text-decoration: none;
+    margin-left: 1100px;
+    margin-top: -18px;
+     color: black;
+    
+}
+#f1{
+    background-color: white;
+    border: 0px;
+    border-radius: 20px;
+
+}
+#f2{
+background-color: rgb(203, 255, 255);
+border: 0px;
+border-radius: 20px;
+margin-top: -8px;
+height: 1000px;
+
+}
+body{
+    background-color: rgb(203, 255, 255);
+}
+#btn1{
+    border:none;
+
+}
+#btn4{
+    border-right: 0px;
+    border-left: 0px;
+border-block-color: white;
+border-bottom-style: solid;
+background: none;
+height: 45px;
+}
+#btn5{
+    border-right: 0px;
+    border-left: 0px;
+border-block-color: white;
+border-bottom-style: solid;
+background: none;
+height: 45px;
+}
+#btn6{
+    border-right: 0px;
+    border-left: 0px;
+border-block-color: white;
+border-bottom-style: solid;
+background: none;
+height: 45px;
+}
+#btn7{
+    border-right: 0px;
+    border-left: 0px;
+border-block-color: white;
+border-bottom-style: solid;
+background: none;
+height: 45px;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 410px;
+}
+#text{
+    margin-left: 600px;
+    margin-top: -300px;
+}
+#get{
+  font-size: 40px;
+  color: rgb(233, 218, 218);  
+}
+#your{
+    font-size: 50px;
+}
+#o{
+font-size: 30px;
+color: rgb(212, 202, 202);
+}
+#content{
+    margin-top: 60px;
+    margin-left: 150px;
+}
+#btn2{
+   margin-left: 800px;
+   border-radius: 40px;
+   width: 100px;
+   height: 40px;
+   font-size: 20px;
+   color: red;
+   box-shadow: 5px 5px 5px  rgb(26, 25, 25);
+   margin-top: 20px;
+}
+#fuck{
+    color: none;
+    height: 20px;
+    width: 20px;
+   
+}
+#link2{
+    color: black;
+    margin-left: 10px;
+    margin-top: -50px;
+}
+#side{
+    margin-left: 40px;
+}
+#color{
+    margin-left: 100px;
+}
+#red{
+    background-color: red;
+    border: 0px;
+    border-radius: 180px;
+    width: 20px;
+    height: 20px;
+}
+#brue{
+    background-color: blue;
+    margin-left: 50px;
+    border: 0px;
+    border-radius: 180px;
+    width: 18px;
+    height: 18px;
+}
+#yellow{
+    background-color: yellow;
+     margin-left: 10px;
+     border: 0px;
+    border-radius: 180px;
+    width: 15px;
+    height: 15px;
+}
+#black{
+background-color: black;
+ margin-left: 10px;
+ border: 0px;
+    border-radius: 180px;
+    width: 12px;
+    height: 12px;
+}
+#img2{
+width: 50px;
+height: 50px;
+color: red;
+margin-top: 30px;
+display: none;
+}
+#img3{
+width: 48px;
+height: 48px;
+display: none;
+}
+
+#img4{
+width: 45px;
+height: 45px;
+display: none;
+}
+#img5{
+width: 43px;
+height: 43px;
+display: none;
+
+}
+
+
+
+</style>
+<body>
+    <fieldset id="f1">
+        <header>
+            <div id="side">
+                <button id="btn4" onclick="home()">home</button>
+                <button id="btn5"  onclick="product()">product</button>
+                <button id="btn6"  onclick="contact()">contact</button>
+                <button id="btn7" onclick="about()">about us</button></div>
+                
+           
+            <div id="link1">
+                <ion-icon name="cart" id="fuck"></ion-icon><a href="http://" id="link2">shop name</a>
+            </div>
+        </header>
+        <fieldset id="f2">
+            <div>
+            <div id="content">
+                <img src="nelly1.png">
+            </div>
+            <div id="text">
+               <div id="get">Get Read to Create</div> 
+                <div id="your"><b>Your Own Way</b></div><br>
+                <o id="o">
+                    same text product descrption goes here . <br>
+                    same text product descrption goes here . <br>
+                    same text product descrption goes here . <br>
+                    same text product descrption goes here . <br>
+                </o>
+            </div>
+            <button id="btn2">buy now</button>
+        </div>
+        <div id="color">
+        <button id="red" title="$200" onclick="red()"></button>
+        <img src="nelly1.png" id="img2">
+        <button id="brue" onclick="red()"></button>
+        <img src="nelly1.png" id="img3">
+        <button id="yellow" onclick="yellow()"></button>
+        <img src="nelly1.png" id="img4">
+        <button id="black" onclick="black()"></button>
+        <img src="nelly1.png" id="img4">
+        </div>
+        
+
+
+</table>
+</center>
+        </fieldset>
+    </fieldset>
+
+</body>
+<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+<script>
+    function home(){
+    
+    document.getElementById("btn4").style.borderBottomColor="red"
+
+}
+function product(){
+    
+    document.getElementById("btn5").style.borderBottomColor="blue"
+
+}
+function contact(){
+    
+    document.getElementById("btn6").style.borderBottomColor="red"
+
+}
+function about(){
+    
+    document.getElementById("btn7").style.borderBottomColor="red"
+
+}
+</script>
+</html>
