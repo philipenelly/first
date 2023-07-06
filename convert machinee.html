@@ -1,0 +1,295 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>philipe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: rgb(183, 190, 196);
+  display: flex;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 50px;
+}
+
+h1 {
+      background-color: black;
+      width: 700px;
+      height: 670px;
+  color: rgb(248, 243, 243);
+  font-size: 3rem;
+}
+.section{
+      background-color: #fff;
+      width: 1030px;
+      height: 440px;
+      margin-top: -70px;
+      margin-left: -10px;
+      border-radius: 20px;
+}
+
+.convert,
+.exchange {
+  font-family: "Poppins",sans-serif;
+  font-size: 25px;
+  color: #000000;
+  padding-right: 20px;
+}
+
+
+input {
+  width: 120px;
+  height: 60px;
+  font-size: 20px;
+  border-color: #000000;
+  
+  outline: 0;
+  margin-right: 20px;
+}
+
+#original-currency-amount {
+  padding-left: 20px;
+
+}
+button {
+  width: 140px;
+  height: 60px;
+  border-radius:15px ;
+  font-size: 20px;
+  font-weight: 600;
+  color:rgb(255, 253, 253);
+  background-color: black;
+  border: 1px;
+  border-color: #000000;
+  font-family: "Poppins",sans-serif;
+  margin-right: -40px;
+}
+
+select {
+  width: 80px;
+  height: 35px;
+  border-color: #000000;
+  font-size: 20px;
+  text-align: center;
+  padding-left: 10px;
+  outline: 0;
+  margin-left: 70px;
+  
+}
+#to_currency{
+      margin-left:1px;
+}
+
+#exchange {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 20px;
+  outline: 0;
+  color: rgb(7, 221, 7);
+  border: 4px solid rgb(12, 12, 12);
+}
+
+#exchange:active,
+button:active {
+  transform: scale(0.9);
+}
+
+#output-text {
+  display: none;
+  padding: 20px;
+  font-size: 30px;
+  color: #000000;
+}
+
+span {
+  color: rgb(7, 7, 7);
+
+  font-size: 35px;
+}
+
+#exchange-rate {
+  cursor: default;
+  border:none;
+}
+
+footer {
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+}
+
+a {
+  color: #ffffff;
+  bottom: 0;
+  font-size: 30px;
+  text-decoration: none;
+}
+#d1{
+  width: 1200px;
+  height: 300px;
+  background-color: rgb(5, 5, 51);
+  border-radius: 20px;
+}
+.exchange{
+  display: ;
+}
+#exchange_button{
+  margin-top: 100px;
+  position: none;
+  background-color: yellow;
+}
+    </style>
+</head>
+
+<body>
+
+    <fieldset id="d1"></fieldset>
+    <fieldset>
+      <table><tr>
+        <td>Amount </td> 
+        <td>from</td>
+        <td>to</td>
+        </tr>
+       <tr><td><input type="number" id="original-currency-amount" placeholder="0" value="1"> </input></td> 
+        <td>
+                  <select id="from_currency">
+            <option value="RWF">RWF</option>
+            <option value="AED">AED</option>
+            <option value="ARS">ARS</option>
+            <option value="AUD">AUD</option>
+            <option value="BGN">BGN</option>
+            <option value="BRL">BRL</option>
+            <option value="BSD">BSD</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+            <option value="CLP">CLP</option>
+            <option value="CNY">CNY</option>
+            <option value="COP">COP</option>
+            <option value="CZK">CZK</option>
+            <option value="DKK">DKK</option>
+            <option value="DOP">DOP</option>
+            <option value="EGP">EGP</option>
+            <option value="EUR">EUR</option>
+            <option value="FJD">FJD</option>
+            <option value="GBP">GBP</option>
+            <option value="GTQ">GTQ</option>
+            <option value="HKD">HKD</option>
+            <option value="HRK">HRK</option>
+            <option value="HUF">HUF</option>
+            <option value="IDR">IDR</option>
+            <option value="ILS">ILS</option>
+            <option value="INR">INR</option>
+            <option value="ISK">ISK</option>
+            <option value="JPY">JPY</option>
+            <option value="KRW">KRW</option>
+            <option value="KZT">KZT</option>
+            <option value="MXN">MXN</option>
+            <option value="MYR">MYR</option>
+            <option value="NOK">NOK</option>
+            <option value="NZD">NZD</option>
+            <option value="PAB">PAB</option>
+            <option value="PEN">PEN</option>
+            <option value="PHP">PHP</option>
+            <option value="PKR">PKR</option>
+            <option value="PLN">PLN</option>
+            <option value="PYG">PYG</option>
+            <option value="RON">RON</option>
+            <option value="RUB">RUB</option>
+            <option value="SAR">SAR</option>
+            <option value="SEK">SEK</option>
+            <option value="SGD">SGD</option>
+            <option value="THB">THB</option>
+            <option value="TRY">TRY</option>
+            <option value="TWD">TWD</option>
+            <option value="UAH">UAH</option>
+            <option value="USD" selected>USD</option>
+            <option value="UYU">UYU</option>
+            <option value="VND">VND</option>
+            <option value="ZAR">ZAR</option>
+        </select></td>   
+        <td><select id="to_currency">
+            <option value="RWF">RWF</option>
+            <option value="AED">AED</option>
+            <option value="ARS">ARS</option>
+            <option value="AUD">AUD</option>
+            <option value="BGN">BGN</option>
+            <option value="BRL">BRL</option>
+            <option value="BSD">BSD</option>
+            <option value="CAD">CAD</option>
+            <option value="CHF">CHF</option>
+            <option value="CLP">CLP</option>
+            <option value="CNY">CNY</option>
+            <option value="COP">COP</option>
+            <option value="CZK">CZK</option>
+            <option value="DKK">DKK</option>
+            <option value="DOP">DOP</option>
+            <option value="EGP">EGP</option>
+            <option value="EUR">EUR</option>
+            <option value="FJD">FJD</option>
+            <option value="GBP">GBP</option>
+            <option value="GTQ">GTQ</option>
+            <option value="HKD">HKD</option>
+            <option value="HRK">HRK</option>
+            <option value="HUF">HUF</option>
+            <option value="IDR">IDR</option>
+            <option value="ILS">ILS</option>
+            <option value="INR" selected>INR</option>
+            <option value="ISK">ISK</option>
+            <option value="JPY">JPY</option>
+            <option value="KRW">KRW</option>
+            <option value="KZT">KZT</option>
+            <option value="MXN">MXN</option>
+            <option value="MYR">MYR</option>
+            <option value="NOK">NOK</option>
+            <option value="NZD">NZD</option>
+            <option value="PAB">PAB</option>
+            <option value="PEN">PEN</option>
+            <option value="PHP">PHP</option>
+            <option value="PKR">PKR</option>
+            <option value="PLN">PLN</option>
+            <option value="PYG">PYG</option>
+            <option value="RON">RON</option>
+            <option value="RUB">RUB</option>
+            <option value="SAR">SAR</option>
+            <option value="SEK">SEK</option>
+            <option value="SGD">SGD</option>
+            <option value="THB">THB</option>
+            <option value="TRY">TRY</option>
+            <option value="TWD">TWD</option>
+            <option value="UAH">UAH</option>
+            <option value="USD">USD</option>
+            <option value="UYU">UYU</option>
+            <option value="VND">VND</option>
+            <option value="ZAR">ZAR</option>
+        </select></td>
+        Result:
+<div>
+        <input type="text" id="exchange-rate" id="from" style="background:white;"></input>
+    <button id="exchange_button">Convert</button></div>
+    <p id="output-text">
+       <span id="from" style="color: black;"> </span>  <span id="to"></span>
+    </p> </fieldset>
+
+            </div>
+    <script src="Game.js"></script>
+</body>
+
+</html>
